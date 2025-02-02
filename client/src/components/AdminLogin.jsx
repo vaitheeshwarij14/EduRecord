@@ -8,7 +8,7 @@ const AdminLogin = () => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    if (email === "sivaharinikumaravel93@gmail.com" && password === "123") {
+    if (email === "admin@gmail.com" && password === "12") {
       setIsAuthenticated(true);
     } else {
       alert("Invalid credentials!");
